@@ -36,16 +36,18 @@ a {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.banner,
-.title,
-.subtitle,
-.card-text {
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
   margin-bottom: 0.8rem;
 }
 
 .card-info,
 .card-text {
-  padding: 0rem 1rem;
+  padding: 0.6rem;
 }
 
 .title {
@@ -99,9 +101,14 @@ a {
   background-color: orangered;
 }
 
-/* ---Basic w/ Text over media--- */
+/* ---Basic w/ Text over media---  */
 .text-over-img .card-info {
   position: absolute;
   top: 40%;
   color: white;
+}
+
+/* ---Basic w/ Header---  */
+.with-header .content .card-info {
+  order: -1;
 }
