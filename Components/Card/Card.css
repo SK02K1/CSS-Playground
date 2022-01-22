@@ -117,3 +117,8 @@ a {
   color: red;
   display: none;
 }
+
+/* ---Basic w/ Only Icons--- */
+.only-icons .btn-container {
+  display: none;
+}
