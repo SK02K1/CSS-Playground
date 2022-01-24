@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+.tabs-container {
+  width: 350px;
+  background-color: #333;
+  box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%),
+    0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+  color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.tab {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  margin-left: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.active-tab {
+  border-bottom: 2px solid blueviolet;
+}
+
+.scrollable {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
