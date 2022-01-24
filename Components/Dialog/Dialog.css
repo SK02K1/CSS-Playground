@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-center {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.material-icons {
+  font-size: 3rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.dialog {
+  background-color: #333333;
+  color: white;
+  box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%),
+    0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+.dialog li {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dialog li span:nth-child(2) {
+  margin-left: 16px;
+}
+
+.dialog-header,
+.dialog-body,
+.dialog-btn-container {
+  padding: 1.2rem;
+}
+
+.dialog-header p {
+  margin: 6px 0;
+}
+
+.dialog-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dialog-action-btn {
+  background-color: transparent;
+  color: palegreen;
+}
+
+.dialog-action-btn:nth-child(2) {
+  margin-left: 16px;
+}
+
+.dialog-action-btn:hover,
+.dialog-body li:hover {
+  background-color: rgb(87, 85, 85);
+}
