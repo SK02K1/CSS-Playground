@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+li {
+  list-style: none;
+}
+
+.index {
+  background-color: #333;
+  border-radius: 5px;
+  width: 40%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.index li a {
+  margin: 1rem 0rem;
+  background-color: blueviolet;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
